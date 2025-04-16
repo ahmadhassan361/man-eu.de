@@ -1,0 +1,1 @@
+"use strict";jQuery,new Slider("".concat(".offers-and-promotions-m17"," ").concat(".offers-and-promotions-slider"),{appendDots:".slider-custom-dots",prevArrow:".slider-custom-prev",nextArrow:".slider-custom-next"}),new VideosEditorial({parent:".offers-and-promotions-m17"});

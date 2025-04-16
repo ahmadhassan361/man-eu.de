@@ -1,0 +1,1 @@
+"use strict";!function(e){var s=".to-top",t="show",o="hide",l=null;window.addEventListener("scroll",throttle(50,function(){e(s).addClass(o).removeClass(t),l&&(clearTimeout(l),l=null),l=setTimeout(function(){window.pageYOffset>.4*document.body.clientHeight?e(s).addClass(t).removeClass(o):e(s).addClass(o).removeClass(t)},250)}))}(jQuery);

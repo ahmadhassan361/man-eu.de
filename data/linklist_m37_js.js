@@ -1,0 +1,1 @@
+"use strict";!function(a){function t(n){var t=n.breakpoints,e=void 0===t?["xs","sm"]:t,r=n.selector,o=void 0===r?'linklist [data-toggle="collapse"]':r,i=n.currentBreakpoint;a(o).data("collapse",e.includes(i))}var n=bsBreakpoints.getCurrentBreakpoint();t({currentBreakpoint:n}),a(window).on("new.bs.breakpoint",function(n){t({currentBreakpoint:n.breakpoint})})}(jQuery);
